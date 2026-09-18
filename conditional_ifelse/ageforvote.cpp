@@ -6,7 +6,7 @@ int main()
     cout << "Enter your age:";
     cin >> age;
     if ( age >= 18)
-        cout << n << " is Even";
+        cout << "You are eligible for give vote" ;
     else
-        cout << n << " is Odd";
+        cout << "You are not eligible for give vote" ;
 }
