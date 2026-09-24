@@ -1,4 +1,4 @@
-// alphabet rectangle pattern
+// alphabet rectangle pattern 2
 #include<iostream>
 using namespace std;
 int main()
@@ -10,9 +10,14 @@ int main()
     {
         cout << endl ; 
         for ( int j = 1 ; j <= c ; j++ )
-          cout << (char)(j+64) << " " ;
+        {
+            if ( i % 2 == 0)
+              cout << ( char ) ( j + 96 ) << " " ;
+            else
+              cout << ( char ) ( j + 64 ) << " " ;
+        }
     }
 }
 // A B C D
-// A B C D
+// a b c d
 // A B C D
