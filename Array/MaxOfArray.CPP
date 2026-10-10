@@ -1,5 +1,4 @@
 #include <iostream>
-#include <climits>
 using namespace std;
 int main()
 {
@@ -10,7 +9,7 @@ int main()
     cout << "Enter " << n << " Elements: " ;
     for( int i = 0 ; i < n ; i++ )
        cin >> arr[i] ;
-       int max = INT_MIN , min = INT_MAX;
+       int max = arr[0] , min = arr[0];
     cout << "Your Array Elements are: " ;
     for( int i = 0 ; i < n ; i++ )
     {
