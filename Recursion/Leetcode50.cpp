@@ -12,5 +12,5 @@ public:
        if(n >= 0) return power(x,n2) ;
        else return 1 / power(x,n2*-1) ;
     }
-};
+}; 
 */
