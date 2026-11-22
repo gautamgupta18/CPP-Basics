@@ -10,4 +10,4 @@ int main()
     cout << "Enter positive number and power of the number:" ;
     cin >> a >> b ;
     cout << power(a , b ) ;
-}
+} 
