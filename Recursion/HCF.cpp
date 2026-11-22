@@ -10,6 +10,6 @@ int main()
         if ( n1 % i  == 0 && n2 % i == 0) {
             cout << "HCF = " << i ;
             break ;
-        }
+        } 
     }
 }
