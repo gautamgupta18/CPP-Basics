@@ -11,5 +11,5 @@ int main()
     int n ;
     cout << "Enter a number:" ;
     cin >> n ;
-    print(n) ;
+    print(n) ; 
 }
