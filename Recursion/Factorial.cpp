@@ -10,5 +10,5 @@ int main()
     int n ;
     cout << "Enter a number:" ;
     cin >> n ;
-    cout << Fact(n) ;
+    cout << Fact(n) ; 
 }
