@@ -11,4 +11,4 @@ int main()
     cout << "Enter two natural number:";
     cin >> a >> b ;
     cout <<"HCF = " <<HCF(a,b) ;
-}
+} 
