@@ -6,7 +6,7 @@ void print(int n)
     cout << n << endl;
     print(n-1) ;
 }
-int main()
+int main() 
 {
     int n ;
     cout << "Enter a number:" ;
